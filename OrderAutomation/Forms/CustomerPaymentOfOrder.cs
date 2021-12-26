@@ -148,7 +148,7 @@ namespace OrderAutomation.Forms
         {
             if (tbxCash.Text != "")
             {
-                if (Convert.ToDecimal(tbxCash.Text) < _order.TotalPrice)
+                if (Convert.ToDecimal(tbxCash.Text) <= _order.TotalPrice)
                 {
                     if (cbxCredit.Checked)
                     {
@@ -179,7 +179,7 @@ namespace OrderAutomation.Forms
         {
             if (tbxCredit.Text != "")
             {
-                if (Convert.ToDecimal(tbxCredit.Text) < _order.TotalPrice)
+                if (Convert.ToDecimal(tbxCredit.Text) <= _order.TotalPrice)
                 {
                     if (cbxCash.Checked)
                     {
@@ -210,7 +210,7 @@ namespace OrderAutomation.Forms
         {
             if (tbxCheck.Text != "")
             {
-                if (Convert.ToDecimal(tbxCheck.Text) < _order.TotalPrice)
+                if (Convert.ToDecimal(tbxCheck.Text) <= _order.TotalPrice)
                 {
                     if (cbxCredit.Checked)
                     {

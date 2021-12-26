@@ -48,7 +48,7 @@ namespace OrderAutomation.Forms
             // 
             this.tbxUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.tbxUsername.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxUsername.Location = new System.Drawing.Point(271, 247);
+            this.tbxUsername.Location = new System.Drawing.Point(272, 237);
             this.tbxUsername.Multiline = true;
             this.tbxUsername.Name = "tbxUsername";
             this.tbxUsername.Size = new System.Drawing.Size(161, 44);
@@ -58,7 +58,7 @@ namespace OrderAutomation.Forms
             // 
             this.tbxPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.tbxPassword.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxPassword.Location = new System.Drawing.Point(275, 312);
+            this.tbxPassword.Location = new System.Drawing.Point(272, 311);
             this.tbxPassword.Multiline = true;
             this.tbxPassword.Name = "tbxPassword";
             this.tbxPassword.PasswordChar = '●';
@@ -81,7 +81,7 @@ namespace OrderAutomation.Forms
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(206, 247);
+            this.pictureBox1.Location = new System.Drawing.Point(207, 237);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(55, 42);
@@ -103,7 +103,7 @@ namespace OrderAutomation.Forms
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(207, 312);
+            this.pictureBox3.Location = new System.Drawing.Point(206, 311);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(54, 42);
@@ -149,7 +149,7 @@ namespace OrderAutomation.Forms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AdminLoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AdminLoginForm";
+            this.Text = "s";
             this.Load += new System.EventHandler(this.AdminLoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
