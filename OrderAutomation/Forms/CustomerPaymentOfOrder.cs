@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OrderAutomation.Entities;
+using OrderAutomation.Entities.Dal;
 
 namespace OrderAutomation.Forms
 {
@@ -293,6 +294,8 @@ namespace OrderAutomation.Forms
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             _order.Status = 1;
+            OrderDal orderDal = new OrderDal();
+            orderDal.Update(_order);
             Close();
         }
     }
